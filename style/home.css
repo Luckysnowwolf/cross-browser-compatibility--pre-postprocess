@@ -1,0 +1,68 @@
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+.text-one{
+display: flex;
+justify-content: space-between;
+max-width: 100%;
+width: 100%;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+}
+.R1{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 50px;
+}
+.Quote{
+    height: 22px;
+}
+.L1{
+    display: flex;
+    justify-content: flex-start;
+    width: 55%;
+}
+.home-image{
+    display: flex;
+    justify-content: center;
+
+}
+.text-two{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.text-two-text{
+    display: flex;
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 50px;
+
+
+}
+.text-two-list1{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 8%;
+    margin-top: 50px;
+}
+.list1{
+    margin-right: 30px;
+}
+
+.text-grid-zone{
+    background-color: rgb(255, 0, 0);
+    display: grid;
+    grid-row:auto;
+    grid-template-columns: auto;
+}
+.text-grid-zone2{
+
+}
+.end-navigation{
+
+}
