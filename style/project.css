@@ -20,6 +20,10 @@
   flex-direction: column;
 }
 
+.hover:hover {
+  color: black;
+}
+
 .rightside {
   display: flex;
   flex-direction: column;
@@ -36,7 +40,6 @@
 
 h1 {
   margin-left: 50px;
-  font-family: "Mulish";
   font-style: normal;
   font-weight: 700;
   font-size: 28px;
@@ -48,7 +51,18 @@ h1 {
   justify-content: center;
 }
 
+p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
 .text-one {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
   display: flex;
   justify-content: space-between;
   max-width: 100%;
@@ -60,7 +74,6 @@ h1 {
   justify-content: space-between;
   margin-inline-end: 30px;
   flex-direction: row;
-  font-family: "Mulish";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -70,6 +83,10 @@ h1 {
 .link2 {
   list-style: none;
   margin-right: 100px;
+}
+
+.link1:hover {
+  color: rgb(0, 0, 0);
 }
 
 .link1 {
@@ -83,6 +100,10 @@ h1 {
 }
 
 .mid-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
   display: flex;
   margin-left: 5%;
   margin-right: 5%;
@@ -149,7 +170,6 @@ h1 {
   justify-content: space-between;
   flex-direction: row;
   margin-left: 50%;
-  font-family: "Mulish";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;

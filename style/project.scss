@@ -1,110 +1,147 @@
 $main-txt-colar: white;
 $main-font: 'Mulish';
 
-.navigation-projects{
+.navigation-projects {
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
-.container{
+
+.container {
     max-width: 100%;
     display: flex;
 }
-.leftside{
+
+.leftside {
     width: 50%;
     margin-left: 30px;
     margin-top: 10%;
 }
-.outline{ display: flex;
+
+.outline {
+    display: flex;
     flex-direction: column;
 
 }
-.rightside{
+.hover:hover{
+    color: black;
+}
+
+.rightside {
     display: flex;
     flex-direction: column;
     width: 20%;
     margin-top: 10%;
     margin-left: 20%;
 }
-.end{
+
+.end {
     width: 20%;
     margin-top: 10%;
     margin-left: 10%;
 
 }
-h1{
+
+h1 {
+    $main-txt-colar: white;
     margin-left: 50px;
-    font-family: 'Mulish';
+    $main-font: 'Mulish';
     font-style: normal;
     font-weight: 700;
     font-size: 28px;
     line-height: 23px;
 }
-.image{ 
+
+.image {
     display: flex;
     justify-content: center;
 }
-.text-one{
-display: flex;
-justify-content: space-between;
-max-width: 100%;
-width: 100%;
+p{
+    $main-font: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
 }
-.links-and-icons{
+.text-one {
+    $main-font: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    width: 100%;
+}
+
+.links-and-icons {
     display: flex;
     justify-content: space-between;
     margin-inline-end: 30px;
     flex-direction: row;
-    font-family: 'Mulish';
+    $main-font: 'Mulish';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 23px;
 }
-.link2{
+
+.link2 {
     list-style: none;
     margin-right: 100px;
 }
-.link1{
+
+.link1:hover {
+    color: rgb(0, 0, 0);
+
+}
+
+.link1 {
     list-style: none;
     margin-right: 20px;
 }
-.links{
+
+.links {
     display: flex;
     flex-direction: row;
 }
-.mid-text{
+
+.mid-text {
+    $main-font: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
     display: flex;
     margin-left: 5%;
     margin-right: 5%;
 }
-.grids{
-}
-.g1{ 
+.g1 {
     display: flex;
     justify-content: space-between;
-    }
-.g2{ 
+}
+.g2 {
     display: flex;
     justify-content: space-between
 }
-.g3{ 
+.g3 {
     display: flex;
     justify-content: space-between
 }
-.g4{ 
+.g4 {
     display: flex;
     justify-content: space-between
 }
-.g5{ 
+.g5 {
     display: flex;
     justify-content: space-between
 }
-.g6{ 
+.g6 {
     display: flex;
     justify-content: space-between
 }
-.end-images{
+.end-images {
     display: grid;
     margin-left: 5%;
     margin-right: 5%;
@@ -114,25 +151,25 @@ width: 100%;
     width: fit-content;
 
 }
-.end-navigation{
+.end-navigation {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
 }
-.icons{
+.icons {
     height: 30px;
     margin-right: 100px;
     margin-top: 14px;
 }
-.link-style{
+.link-style {
     list-style: none;
 }
-.end-links-and-icons{
+.end-links-and-icons {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     margin-left: 50%;
-    font-family: 'Mulish';
+    $main-font: 'Mulish';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;

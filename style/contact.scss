@@ -1,0 +1,111 @@
+$main-txt-colar: white;
+$main-font: 'Mulish';
+
+.navigation-Contact {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.links-and-icons {
+    display: flex;
+    justify-content: space-between;
+    margin-inline-end: 30px;
+    flex-direction: row;
+    $main-font: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.link2 {
+    list-style: none;
+    margin-right: 100px;
+}
+
+.link1:hover {
+    color: rgb(0, 0, 0);
+
+}
+
+.link1 {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+}
+.leftside {
+    width: 80%;
+    margin-left: 30px;
+    margin-top: 10%;
+}
+
+.outline {
+    display: flex;
+    flex-direction: column;
+
+}
+.container {
+    max-width: 70%;
+    display: flex;
+}
+.hover:hover{
+    color: black;
+}
+
+.rightside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+.link-style{
+    list-style: none;
+}
+.button{
+    background-color: blue;
+    color: white;
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 0px;
+    border-color: blue;
+    border-width: 0px;
+    height: 100%;
+}
+.image{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.end-navigation {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+.icons {
+    height: 30px;
+    margin-right: 100px;
+    margin-top: 14px;
+}
+.end-links-and-icons {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-left: 50%;
+    $main-font: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+}
+.logo{
+    margin-left: 40px;
+}
+.lable{
+    width: 100%;
+}
