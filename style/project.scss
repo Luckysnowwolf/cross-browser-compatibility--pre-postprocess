@@ -1,0 +1,140 @@
+$main-txt-colar: white;
+$main-font: 'Mulish';
+
+.navigation-projects{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.container{
+    max-width: 100%;
+    display: flex;
+}
+.leftside{
+    width: 50%;
+    margin-left: 30px;
+    margin-top: 10%;
+}
+.outline{ display: flex;
+    flex-direction: column;
+
+}
+.rightside{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+.end{
+    width: 20%;
+    margin-top: 10%;
+    margin-left: 10%;
+
+}
+h1{
+    margin-left: 50px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 23px;
+}
+.image{ 
+    display: flex;
+    justify-content: center;
+}
+.text-one{
+display: flex;
+justify-content: space-between;
+max-width: 100%;
+width: 100%;
+}
+.links-and-icons{
+    display: flex;
+    justify-content: space-between;
+    margin-inline-end: 30px;
+    flex-direction: row;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+}
+.link2{
+    list-style: none;
+    margin-right: 100px;
+}
+.link1{
+    list-style: none;
+    margin-right: 20px;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+}
+.mid-text{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.grids{
+}
+.g1{ 
+    display: flex;
+    justify-content: space-between;
+    }
+.g2{ 
+    display: flex;
+    justify-content: space-between
+}
+.g3{ 
+    display: flex;
+    justify-content: space-between
+}
+.g4{ 
+    display: flex;
+    justify-content: space-between
+}
+.g5{ 
+    display: flex;
+    justify-content: space-between
+}
+.g6{ 
+    display: flex;
+    justify-content: space-between
+}
+.end-images{
+    display: grid;
+    margin-left: 5%;
+    margin-right: 5%;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: fit-content;
+
+}
+.end-navigation{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.icons{
+    height: 30px;
+    margin-right: 100px;
+    margin-top: 14px;
+}
+.link-style{
+    list-style: none;
+}
+.end-links-and-icons{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 50%;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+}
